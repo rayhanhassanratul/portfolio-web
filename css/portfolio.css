@@ -86,6 +86,7 @@ nav li a{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    
 }
 
 .section-descrition{
@@ -142,4 +143,74 @@ main{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+}
+
+
+.resume-conteiner{
+    display: flex;
+    gap: 24PX;
+
+}
+
+.experience-description , .experience-subtitle{
+    color: #474747;
+}
+
+.experience-subtitle{
+    font-size: 20PX;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.download-cv{
+    margin-top: 50px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+
+
+
+
+footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
 }

@@ -214,3 +214,45 @@ footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+
+
+
+
+
+
+
+/* responsive medea query */
+
+@media screen and (max-width:576px) {
+    .skill-containter, .resume-conteiner, footer, .about-item, .banner, nav{
+        flex-direction: column;
+    }
+
+    footer, .about{
+        padding: 20px;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+
+    .banner{
+        margin: 20px;
+    }
+
+    .header{
+        background-image: none;
+    }
+
+
+    .ratul{
+        width: 100%;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+}
